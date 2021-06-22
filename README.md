@@ -24,7 +24,7 @@ d.	Home Page
 # Promo App
 https://user-images.githubusercontent.com/62667906/122924350-4bc04380-d383-11eb-8cfe-e34947137a99.mp4
 
-## Screens
+## Screens (Only Few)
 
 ![image](https://user-images.githubusercontent.com/62667906/122928500-8fb54780-d387-11eb-9ddb-ca25e6f1c24f.png)
 ![image](https://user-images.githubusercontent.com/62667906/122929073-22ee7d00-d388-11eb-970e-94575d8b6c76.png)
