@@ -1,0 +1,35 @@
+What is cryptocurrency?
+
+Cryptocurrency is a form of payment that can be exchanged online for goods and services. Many companies have issued their own currencies, often called tokens, and these can be traded specifically for the good or service that the company provides. Think of them as you would arcade tokens or casino chips. 
+You’ll need to exchange real currency for the cryptocurrency to access the good or service.
+Cryptocurrencies work using a technology called blockchain. Blockchain is a decentralized technology spread across many computers that manages and records transactions. Part of the appeal of this technology is its security.
+
+
+Why are cryptocurrencies so popular?
+
+Cryptocurrencies appeal to their supporters for a variety of reasons. Here are some of the most popular:
+
+Supporters see cryptocurrencies such as Bitcoin as the currency of the future and are racing to buy them now, presumably before they become more valuable
+Some supporters like the fact that cryptocurrency removes central banks from managing the money supply, since over time these banks tend to reduce the value of money via inflation
+Other supporters like the technology behind cryptocurrencies, the blockchain, because it’s a decentralized processing and recording system and can be more secure than traditional payment systems
+Some speculators like cryptocurrencies because they’re going up in value and have no interest in the currencies’ long-term acceptance as a way to move money.
+
+
+
+How Does Cryptocurrency Work?
+
+A cryptocurrency is a medium of exchange that is digital, encrypted and decentralized. Unlike the U.S. Dollar or the Euro, there is no central authority that manages and maintains the value of a cryptocurrency. Instead, these tasks are broadly distributed among a cryptocurrency’s users via the internet.
+Bitcoin was the first cryptocurrency, first outlined in principle by Satoshi Nakamoto in a 2008 paper titled “Bitcoin: A Peer-to-Peer Electronic Cash System.” Nakamoto described the project as “an electronic payment system based on cryptographic proof instead of trust.”
+That cryptographic proof comes in the form of transactions that are verified and recorded in a form of program called a blockchain.
+
+
+
+How Can You Mine Cryptocurrency?
+
+Mining is how new units of cryptocurrency are released into the world, generally in exchange for validating transactions. While it’s theoretically possible for the average person to mine cryptocurrency, it’s increasingly difficult in proof of work systems, like Bitcoin.
+“As the Bitcoin network grows, it gets more complicated, and more processing power is required,” says Spencer Montgomery, founder of Uinta Crypto Consulting. “The average consumer used to be able to do this, but now it’s just too expensive.
+There are too many people who have optimized their equipment and technology to outcompete.”
+And remember: Proof of work cryptocurrencies require huge amounts of energy to mine. 
+
+It’s estimated that 0.21% of all of the world’s electricity goes to powering Bitcoin farms. That’s roughly the same amount of power Switzerland uses in a year. It’s estimated most Bitcoin miners end up using 60% to 80% of what they earn from mining to cover electricity costs.
+While it’s impractical for the average person to earn crypto by mining in a proof of work system, the proof of stake model requires less in the way of high-powered computing as validators are chosen at random based on the amount they stake. It does, however, require that you already own a cryptocurrency to participate. (If you have no crypto, you have nothing to stake.)

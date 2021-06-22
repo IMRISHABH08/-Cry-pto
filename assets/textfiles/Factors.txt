@@ -1,0 +1,117 @@
+Cryptocurrencies were non existent about a decade ago, and they have certainly come a long way since then. In this article we try to understand how cryptocurrencies are valued, so as to give the investors a better understanding of what they are getting into.
+Before we Begin
+
+Fundamental analysis forms the backbone of any type of valuation.
+
+Performing fundamental analysis for cryptocurrencies is different due to the absence of financial statements to analyze.
+We have to understand that cryptocurrencies are not companies but currencies, i.e. their viability is not based on generating revenue.
+
+It directly depends on the participation of the community, i.e.,
+
+Users
+
+Miners
+
+Developers
+
+
+Factors that Affect Crypto Value:
+
+Utility:
+
+A coin must incentivize people to hold the coins.
+The more the people that execute transactions, the greater the demand for coins will be and will, therefore, push prices up.
+Utility also include voting rights, dividend payments or being a medium of exchange.
+
+
+Scarcity:
+
+The finite nature of the coins.
+Demand will push its value up, especially for coins with great utility.
+
+
+Perceived Value:
+
+What the markets deem their value to be.
+Collaborations and partnerships with credible companies enhance the perceived value of a coin.
+
+
+What is needed for a good understanding of a coin’s fundamentals?
+
+1. The Right Sources of Information:-
+
+i) Coin’s White Paper :
+
+A detailed proposal by the development team which outlines the purpose and mechanics of the coin.
+Represents the main source for evaluating the fundamentals of the coin.
+The drawback is that it can get very technical – concepts that are hard for an average person to comprehend.
+
+
+
+ii) Coin’s Slack Channel or Blog:
+
+Official channel of communication of the core development team.
+Joining their slack channel, asking questions to get more information on the coin, viewing the interaction of the development team with the community helps a lot.
+
+
+
+iii) Community Forums:
+
+A great way to understand the coins as well as sentiments surrounding the coin.
+Simple definitions of certain concepts, easy-to-understand analysis of coins from forums can be found as the community is well-informed.
+It allows one to grasp the mechanics of the coin far better, especially if he/she not technically-inclined.
+
+
+
+2. Cryptocurrency Fundamental Analysis:-
+
+Purpose of Coin?
+
+Does it Solve a Real Problem?
+
+Does the Coin Possess Any Utility?
+
+Is the White Paper a Marketing stunt filled with jargons?
+
+Is the Project Funded/Backed by Prominent Investors?
+
+Governance Structure-Centralized or Decentralized?
+
+Development Roadmap? 
+
+Running “Proof” of the Coin.
+
+Money Have They Raised? How have they spent it?
+
+Difference from the nearest Competitor?
+
+Significant Legal Barriers?
+
+
+
+There’s no way to determine the inherent value of a cryptocurrency, as there is no asset backing it, but certain calculations can give us a reasonable estimate for the value of cryptocurrencies based on certain assumptions.
+
+    i)   Quantity Theory of Money:
+            
+            MV = PT
+
+Where:
+
+M is the money supply
+V is the velocity of money in a given time period
+P is the price level
+T is the transaction volume in a given time period
+the equation as valid over the long-term
+a large portion of this velocity is just trading volume, not spending volume.
+criminal activity, since that’s one of Bitcoin’s biggest applications that affects the actual value of goods traded
+
+
+
+    ii) National Currency Comparisons:
+
+Cryptocurrency adoption compared to fiat currencies.
+
+How much economic activity – the equivalent of GDP, that actually occurs in a cryptocurrency from the active users.
+
+Examining active user base of the cryptocurrency, since the ledger is public.
+

@@ -1,0 +1,30 @@
+Dogecoin (DOGE, symbol: Ð and D) is a Litecoin-derived cryptocurrency featuring a Shiba Inu from the Doge Internet meme on its logo.
+The users themselves call it “joky”. One of the most popular uses of the coin is the reward of Internet users for interesting and quality content created or shared by them. It was introduced on December 8, 2013.
+
+
+
+What is Dogecoin?
+
+Like in Bitcoin and Litecoin, in Dogecoin the public key cryptography is used, where a user generates a pair of cryptographic keys: a public one and a closed one. Only a closed key can decode the information encrypted with a public key; this is why the keys’ owner can freely publish the public key without worrying about the encrypted data.
+The mining differs from Litecoin in several parameters. A new block in the Dogechain is created in 1 minute unlike 2.5 minutes for Litecoin. Today, the mining complexity is reappointed once per block and the reward for miners is fixed. However, from the very beginning, the complexity was changed once per four hours and the reward was a random number between 0 and the maximum determined by the block parameters.
+
+
+
+Dogecoin Wallets:
+
+Dogecoin wallets come in a variety of forms designed for different types of devices. There are five main types: a boot program-wallet on a computer, mobile version, web application, paper, and portable. Here is a list of wallets with a user — friendly interface and for safe storage of Doge:
+
+MultiDoge:
+Dogecoin wallet program, imported with a MultiBit Bitcoin client. This is a lightweight version of the wallet, so it only needs to be “synced” via blockchain before it becomes active for use. This instance performs the synchronization process very quickly. But the wallet should only be for normal use. There are versions for operating systems (Windows, Mac OS X, Linux).
+
+Wowdoge:
+this is the Lite version of software-defined storage for coins Doge, with small-time synchronization in the Blockchain. It is functional, has a clear graphical interface and is easy to use. There are versions for operating systems (Windows, OS X, Linux) and the source code of Github.
+
+Dogecoin Core:
+is the full official version of the Doge wallet. Initial synchronization with the blockchain is slow compared to lightweight versions, and it will take a lot of free space on the PC to install the Program. There are versions for operating systems (Windows, OS X, Linux, Android, Blackberry, Browser, Source, IOS).
+
+DogeChain:
+is a free online version of the Dogecoin wallet. On the website, you can register and get the address of logicon. Without installation and long synchronization with the Blockchain, you can start using it.
+
+
+Also, you can use hard wallets such as Ledger and Trezor, and Coinomi mobile multi-currency wallet.

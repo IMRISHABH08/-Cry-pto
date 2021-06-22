@@ -1,0 +1,50 @@
+What is Bitcoin?
+
+Bitcoin is a decentralized, digital-only currency. Rather than having a central monetary authority, a peer-to-peer computer network keeps track of Bitcoin transactions and creates additional bitcoins through a process called "mining."
+Bitcoin users and their transactions are pseudonymous; there are no international exchange rates to figure out, and there's no need for middlemen to collect fees.
+Bitcoin was created in 2009, in the wake of the near-collapse of the global financial establishment. It happened soon after an individual or group using the name "Satoshi Nakamoto" posted a paper online discussing the idea of a decentralized digital currency free from interference by governments and financial institutions. Nakamoto created the online bookkeeping system to record and track Bitcoin transactions and mined the first bitcoins.
+
+
+What is Bitcoin mining?
+
+Bitcoins can be purchased using real money, but they can also be generated or "mined." Users generate Bitcoins by having their computers solve difficult mathematical algorithms that help verify the creation of new Bitcoins in the blockchain — the encrypted ledger that records and registers all Bitcoin activity — and the transfer of Bitcoins between users. The algorithms become progressively more difficult over time.
+Blockchain node operators keep track of all transactions and broadcast new transactions across the host network, incrementally adding to the blockchain. Computers that are participating in the network communicate and agree on updates to the blockchain.
+
+About every 10 minutes, a miner whose blockchain updates have been approved and packaged into a block earns 6.25 bitcoins. When Bitcoin first came into being, the reward was 50 bitcoins, but the reward amount halves with every 210,000 blocks registered, equivalent to about four years. The last “halving” took place in May 2020.
+
+
+
+What are Bitcoin wallets?
+
+Bitcoin transactions are processed through a Bitcoin wallet, an application that users download and install on their computers or smartphones. A purchaser or seller is identified only by his or her digital wallet's "address," a unique string of letters and numbers with a private "key" (another numeric string), which only the wallet holder has.
+The best crypto wallets can be set up for free and with relative ease, meaning consumers can open and close wallets at will to maintain their anonymity. One person can have multiple wallets, and multiple individuals can control a single wallet.
+There are several types of Bitcoin wallets to choose from, each with its own set of pros and cons. The options include:
+
+
+Hardware wallets: 
+
+This kind of wallet is an external device specifically designed to hold and manage Bitcoins. No transaction can take place unless the hardware wallet is connected to a computer or mobile device, and access to the Bitcoins held within is often protected with a PIN code. Hardware wallets are considered the most secure type of Bitcoin wallets, as they are “cold storage” when not connected to a computer. However, unlike software wallets, they're not free.
+
+
+Desktop wallets: 
+
+Software is downloaded directly to the computer, giving users full control and responsibility.
+Because the Bitcoin address is kept on the computer's storage, no one else has access to it. However, the user must ensure that there is a backup of the drive and must have a security system installed to prevent theft of the Bitcoin data. 
+If the desktop wallet is corrupted in some way, any Bitcoins stored there are deleted and irretrievable.
+Desktop wallets come as either full-size clients or light clients. Full-size clients allow the user to host and read a copy of the entire Bitcoin blockchain, which is almost 350GB today. Light clients simply provide Bitcoin storage and require external sources to read the blockchain.
+
+
+Mobile wallets: 
+
+These wallets are accessed through an app on your smartphone or tablet. They can be easy to use, offering touch-screen controls and the ability to scan QR-coded Bitcoin addresses, but mobile wallets can access only a small portion of the entire Bitcoin blockchain and so are considered light clients.
+
+
+Online wallets: 
+
+Web-based wallets allow you to manage bitcoins through your browser. These wallets are convenient because they can be accessed at any time, and anywhere. You can't accidentally delete them, and you don't have the responsibility of backing up your holdings.
+However, third parties usually manage online wallets, and this involves high levels of trust and means that you have to rely on someone else to handle the security. The companies that manage online wallets often also act as Bitcoin brokers, or exchanges, which make money by taking a cut of every transaction they manage.
+
+
+Paper wallets: 
+
+Bitcoin address keys and QR codes are printed on paper or some other medium. You don't have to worry about cyberattacks stealing the information, because nothing is stored digitally, but if the paper is lost or destroyed, access to the bitcoins is gone forever.

@@ -1,0 +1,52 @@
+{
+    "topics": [
+        {
+            "id": 1,
+            "title": "Crypto",
+            "discription": "Paper Money is going away !",
+            "about": "https://drive.google.com/uc?export=view&id=1vfsZt9zgcwkWqK5K4Vcbxt4mL8ObSzcoMRgQTCJvNU8",
+            "color": "03203C",
+            "image": "https://drive.google.com/uc?export=view&id=1HPf9F5FBbkpxn1fkpdDfTllZySRwyKyc"
+        },
+        {
+            "id": 2,
+            "title": "Bitcoin",
+            "discription": "Bitcoin is cash with wings !",
+            "about": "https://drive.google.com/uc?export=view&id=1vfsZt9zgcwkWqK5K4Vcbxt4mL8ObSzcoMRgQTCJvNU8",
+            "color": "00ac51",
+            "image": "https://drive.google.com/uc?export=view&id=1qwrlOfaMwtVGui1myXFv3i8QGyj7RFt0"
+        },
+        {
+            "id": 3,
+            "title": "Dogecoin",
+            "discription": "Dogecoin is the people’s crypto !",
+            "about": "https://drive.google.com/uc?export=view&id=1vfsZt9zgcwkWqK5K4Vcbxt4mL8ObSzcoMRgQTCJvNU8",
+            "color": "e0bfae",
+            "image": "https://drive.google.com/uc?export=view&id=1tX3eU-8bx5UrWKbCtuWEosKIDvruFUyZ"
+        },
+        {
+            "id": 4,
+            "title": "Investment",
+            "discription": "Investment in CryptoCurrency !",
+            "about": "https://drive.google.com/uc?export=view&id=1vfsZt9zgcwkWqK5K4Vcbxt4mL8ObSzcoMRgQTCJvNU8",
+            "color": "544ee4",
+            "image": "https://drive.google.com/uc?export=view&id=1zWJy1CYxogskWx9QircgSSJ4XWiYcG7d"
+        },
+        {
+            "id": 5,
+            "title": "Factors",
+            "discription": "Factors affecting Crypto Market !",
+            "about": "https://drive.google.com/uc?export=view&id=1vfsZt9zgcwkWqK5K4Vcbxt4mL8ObSzcoMRgQTCJvNU8",
+            "color": "544ee4",
+            "image": "https://drive.google.com/uc?export=view&id=1vOXHqm5nG24vn8LEdY4UW6Rdxg2nGdkW"
+        },
+        {
+            "id": 6,
+            "title": "Resources",
+            "discription": "Some Easy Resources ! ",
+            "about": "https://drive.google.com/uc?export=view&id=1vfsZt9zgcwkWqK5K4Vcbxt4mL8ObSzcoMRgQTCJvNU8",
+            "color": "CAD5E2",
+            "image": "https://drive.google.com/uc?export=view&id=1Pl00VOxwgRL8rCxoLMbi8F_zVPm5Zq0z"
+        }       
+    ]
+}
