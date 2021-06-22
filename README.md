@@ -8,6 +8,7 @@ flutterSync designed and developed using Cross plateform UI development
 toolkit .
 which consists;
 <pre>
+
 a.	Splash Screen
 b.	Login Page(Phone Auhentication Using OTP)
 c.	Welcome page
