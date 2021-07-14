@@ -1,14 +1,13 @@
-import 'dart:async';
+import 'package:flutter/material.dart';
 
 import 'package:fluttersync/provider/currency_provider.dart';
 import 'package:fluttersync/screens/welcome_page.dart';
 import 'package:fluttersync/widgets/dashboard_data_transform.dart';
 import 'package:provider/provider.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 import '../widgets/dashboard.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/material.dart';
 import 'package:fluttersync/authentication/authentication.dart';
 import 'package:fluttersync/screens/home_Page.dart';
 import './screens/splash_screen.dart';
@@ -43,6 +42,7 @@ class FlutterSyncState extends State<FlutterSync> {
           "/dash_board":(context)=>DashBoardPage(),     
           "/Dashboard_data_transform":(context)=>DashboardDataTransform(),   //"//d":(context)=>MyApp(),
           "/welcome_page":(context)=>WelcomePage(),
+         
         },
         
       ),

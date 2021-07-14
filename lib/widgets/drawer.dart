@@ -3,22 +3,53 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttersync/authentication/authentication.dart';
+import 'package:fluttersync/screens/welcome_page.dart';
 
-class MyDrawer extends StatelessWidget {
-  final user_name;
-  final email;
+class MyDrawer extends StatefulWidget {
+  @override
+  _MyDrawerState createState() => _MyDrawerState();
+}
 
-  MyDrawer({@required this.user_name, @required this.email});
+class _MyDrawerState extends State<MyDrawer> {
+  final _auth = FirebaseAuth.instance;
+  String user;
+  String email;
+  var ref;
+  initState() {
+    super.initState();
+
+    ref = FirebaseDatabase.instance
+        .reference()
+        .child("my_app_user")
+        .child(_auth.currentUser.uid);
+
+    valuefetch();
+    // ref.child("Name").once().then((DataSnapshot data) {
+    //   setState(() {
+    //     user = data.value;
+    //     print("USER:"+user);
+    //   });
+    // });
+    // ref.child("Email").once().then((DataSnapshot data) {
+    //   setState(() {
+    //     email = data.value;
+    //     print("EMAIL:"+email);
+    //   });
+    // });
+  }
+
+  valuefetch() async {
+    await ref.once().then((value) {
+      Map<dynamic, dynamic> values = value.value ?? {};
+      user = values["Name"] ?? "";
+      email = values["Email"] ?? "";
+    });
+    setState(() {});
+  }
 
   Widget build(BuildContext context) {
     final img =
         "https://cdn.dribbble.com/users/458522/screenshots/4611234/deadpool.jpg?compress=1&resize=800x600";
-    final _auth = FirebaseAuth.instance;
-
-    final ref = FirebaseDatabase.instance
-        .reference()
-        .child("my_app_user")
-        .child(_auth.currentUser.uid);
 
     print("current user" + _auth.currentUser.toString());
     return Drawer(
@@ -35,11 +66,12 @@ class MyDrawer extends StatelessWidget {
                 padding: EdgeInsets.zero,
                 child: UserAccountsDrawerHeader(
                   margin: EdgeInsets.zero,
-                  accountName: Text(user_name
+                  accountName: Text(user
+
                       //   {
-                      //   ref.once().then((data) => () {
-                      //         Map<dynamic, dynamic> values = data.value;
-                      //         print("values"+values.toString());
+                      // ref.once().then((data) => () {
+                      //       Map<dynamic, dynamic> values = data.value;
+                      //       print("values"+values.toString());
                       //         // values.forEach(
                       //         //   (key, values) {
                       //         //     return ("values :" + values["Name"]);
@@ -90,12 +122,19 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
             ListTile(
+              onTap: () {
+                Navigator.of(context).pop();
+                // Navigator.pushReplacementNamed(context, "/welcome_page");
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => WelcomePage()));
+                //Navigator.of(context).pushNamed("/welcome_page");
+              },
               leading: Icon(
                 CupertinoIcons.profile_circled,
                 color: Colors.white,
               ),
               title: Text(
-                "Profile",
+                "Profile Edit",
                 style: TextStyle(color: Colors.white),
                 textScaleFactor: 1.3,
               ),

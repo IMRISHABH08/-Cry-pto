@@ -2,6 +2,7 @@ import 'package:fluttersync/model/currency_mapping.dart';
 import 'package:syncfusion_flutter_datagrid/datagrid.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 enum CurrencyColumn { id, rank, name, price, oneHChange, oneDChange, marketcap }
@@ -62,10 +63,12 @@ class CurrencyDataSource extends DataGridSource {
         }
       }).toList());
 
-  Widget build1HRow(double one_Hour) => Container(
-        padding: EdgeInsets.all(16),
-        child: Text("$one_Hour"),
-      );
+  Widget build1HRow(double one_Hour) => 
+        
+        Container(
+          padding: EdgeInsets.all(16),
+          child: Text("$one_Hour"),
+        );
   Widget build1DRow(double one_day) => Container(
         padding: EdgeInsets.all(16),
         child: Text("$one_day"),
@@ -74,7 +77,7 @@ class CurrencyDataSource extends DataGridSource {
         padding: EdgeInsets.all(16),
         child: FittedBox(
           child: Text(
-            ((marketCap * 72.96) / 72925100000).toStringAsFixed(2) + "B",
+            ((marketCap * 74.49) / 74925100000).toStringAsFixed(2) + "B",
             textScaleFactor: 1.2,
           ),
         ),
@@ -109,7 +112,7 @@ class CurrencyDataSource extends DataGridSource {
         padding: EdgeInsets.all(16),
         child: FittedBox(
           child: Text(
-            "\₹ " + (price * 72.96).toStringAsFixed(2),
+            "\₹ " + (price * 74.49).toStringAsFixed(2),
             textScaleFactor: 1.2,
           ),
         ),

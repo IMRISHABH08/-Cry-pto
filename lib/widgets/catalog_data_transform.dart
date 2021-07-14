@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:fluttersync/widgets/catalog_img_transform.dart';
-import 'package:slimy_card/slimy_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../model/catalog_data.dart';

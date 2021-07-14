@@ -39,7 +39,7 @@ class _Home_PageState extends State<Home_Page> {
         length: 2,
         child: Scaffold(
           //backgroundColor: Colors.deepPurple,
-          drawer:MyDrawer(user_name: widget.user_name, email: widget.email),
+          drawer:MyDrawer(),
           // appBar: AppBar(
           //   actions: [
           //     IconButton(

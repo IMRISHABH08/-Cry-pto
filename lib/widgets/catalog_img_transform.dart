@@ -72,7 +72,7 @@ class _CatalogImgTransformState extends State<CatalogImgTransform> {
                     Container(
                       padding: const EdgeInsets.all(20.0),
                       alignment: Alignment.center,
-                      child: Text(
+                      child: SelectableText(
                         about.toString(),
                         textScaleFactor: 1.2,
                       ),

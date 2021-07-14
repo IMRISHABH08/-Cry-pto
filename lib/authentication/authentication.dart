@@ -19,10 +19,31 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
   FirebaseAuth _auth = FirebaseAuth.instance;
 
   String verificationId;
+  String MobNo;
 
   final GlobalKey<ScaffoldMessengerState> _scaffoldKey = GlobalKey();
 
   bool showLoading = false;
+
+  @override
+  void initState() {
+    phoneNumberController.addListener(() {
+      print("value in phoneTextField:${phoneNumberController.text}");
+      MobNo = phoneNumberController.text;
+      print("value in MOBNO:$MobNo");
+    });
+    setState(() {});
+    // TODO: implement initState
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    phoneNumberController.dispose();
+    // TODO: implement dispose
+    super.dispose();
+     print("value in MOBNO_dis:$MobNo");
+  }
 
   void signWithPhoneAuthCredential(
       PhoneAuthCredential phoneAuthCredential) async {
@@ -68,7 +89,8 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
         ),
       );
       await Future.delayed(Duration(seconds: 1));
-      Navigator.of(context).pushNamedAndRemoveUntil("/authenticationPage", (route) => false);
+      Navigator.of(context)
+          .pushNamedAndRemoveUntil("/authenticationPage ", (route) => false);
     }
   }
 
@@ -80,8 +102,8 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
         Spacer(),
         Container(
             height: MediaQuery.of(context).size.height * 0.30,
-            child: Image.network(
-              "https://drive.google.com/uc?export=view&id=1TPSbHfD5rMSeyuz8g1AxjOlQtgmR88oH",
+            child: Image.asset(
+              "assets/images/OTP_SEND.png",
             )),
         Text("We will send OTP to this number",
             style:
@@ -101,7 +123,7 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
                   hintStyle: TextStyle(
                     fontSize: 14,
                   )
-                  
+
                   //border: ,)
                   ),
               keyboardType: TextInputType.number,
@@ -115,10 +137,11 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
                   shadowColor: Colors.black12,
                   primary: Colors.blue,
                 ),
-                onPressed: (phoneNumberController.text == null ||
-                        phoneNumberController.text.isEmpty || phoneNumberController.text.length!=10)
+                onPressed: (MobNo == null ||
+                        MobNo.isEmpty ||
+                        MobNo.length != 10)
                     ? () {
-                        setState(() {});
+                        // setState(() {});
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text("Enter Number !"),
@@ -126,7 +149,6 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
                             backgroundColor: Colors.blue,
                           ),
                         );
-                        
                       }
                     : () async {
                         setState(() {
@@ -193,8 +215,7 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
     return Column(
       children: [
         Spacer(),
-        Image.network(
-            "https://drive.google.com/uc?export=view&id=1-u2zD-0FfHt3aONjxDAv3r8ahA14tgr1"),
+        Image.asset("assets/images/OTP_VERIFICATION.png"),
         RichText(
             text: TextSpan(
                 text: "We have Successfully sent the OTP to ",
@@ -213,12 +234,11 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
               child: TextField(
                 controller: OTPController,
                 decoration: InputDecoration(
-                  labelText: "Enter OTP",
-                  hintText: "e.x. 123456",
-                  hintStyle: TextStyle(
-                    fontSize: 14,
-                  )
-                ),
+                    labelText: "Enter OTP",
+                    hintText: "e.x. 123456",
+                    hintStyle: TextStyle(
+                      fontSize: 14,
+                    )),
                 keyboardType: TextInputType.number,
               ),
             ),

@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:fluttersync/model/dashboard_data.dart';
 import 'package:fluttersync/model/grid_column_name.dart';
 import 'package:fluttersync/provider/currency_provider.dart';
 import 'package:syncfusion_flutter_core/theme.dart';
 import 'package:syncfusion_flutter_datagrid/datagrid.dart';
-import 'package:fluttersync/model/currency_mapping.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:provider/provider.dart';
 
 class DashboardDataTransform extends StatelessWidget {
@@ -14,14 +13,27 @@ class DashboardDataTransform extends StatelessWidget {
     return <GridColumn>[
       GridTextColumn(
         columnName: CurrencyColumn.id.toString(),
-        label: Container(
-          //margin: EdgeInsets.all(5),
-          // alignment: Alignment.center,
-          decoration: BoxDecoration(
-            color: Colors.blue[600],
+        label: InkWell(
+          splashColor: Colors.blue,
+          onTap: (){
+            Fluttertoast.showToast(
+              msg: "  ID   ",
+              toastLength: Toast.LENGTH_SHORT,
+              gravity: ToastGravity.BOTTOM,
+              timeInSecForIosWeb: 1,
+              backgroundColor: Colors.white,
+              textColor: Colors.black,
+              fontSize: 16.0);
+          },
+          child: Container(
+            //margin: EdgeInsets.all(5),
+            // alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: Colors.blue[600],
+            ),
+            padding: EdgeInsets.only(left: 20, right: 10, top: 10, bottom: 10),
+            child: buildLabel("ID"),
           ),
-          padding: EdgeInsets.only(left: 20, right: 10, top: 10, bottom: 10),
-          child: buildLabel("ID"),
         ),
       ),
       GridTextColumn(

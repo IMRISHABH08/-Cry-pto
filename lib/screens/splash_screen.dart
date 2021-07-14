@@ -1,10 +1,6 @@
 import 'dart:async';
-
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttersync/authentication/authentication.dart';
-import 'package:fluttersync/screens/home_Page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -14,18 +10,18 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   FirebaseAuth _auth;
-  User user ;
+  User user;
 
   void initState() {
     super.initState();
     _auth = FirebaseAuth.instance;
-    
-    user= _auth.currentUser;
+
+    user = _auth.currentUser;
     print(user);
     Timer(Duration(seconds: 4), () {
-      Navigator.of(context).pushReplacementNamed("/authenticationPage");
-      
-      //(user==null)?Navigator.of(context).pushReplacementNamed("/authenticationPage"):Navigator.of(context).pushReplacementNamed("/welcome_page");
+       Navigator.of(context).pushReplacementNamed("/authenticationPage");
+
+      //(user==null)?Navigator.of(context).pushReplacementNamed("/authenticationPage"):Navigator.of(context).pushReplacementNamed("/home_page");
     });
   }
 

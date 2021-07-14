@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class CatalogModel {
@@ -28,13 +27,13 @@ class CatalogModel {
   }
 
   toMap() => {
-    "id":id,
-    "title":title,
-    "discription":discription,
-    "about":about,
-    "color":color,
-    "image":image,
-  };
+        "id": id,
+        "title": title,
+        "discription": discription,
+        "about": about,
+        "color": color,
+        "image": image,
+      };
 }
 
 class CatalogData {
