@@ -19,9 +19,9 @@ class _SplashScreenState extends State<SplashScreen> {
     user = _auth.currentUser;
     print(user);
     Timer(Duration(seconds: 4), () {
-       Navigator.of(context).pushReplacementNamed("/authenticationPage");
+      // Navigator.of(context).pushReplacementNamed("/authenticationPage");
 
-      //(user==null)?Navigator.of(context).pushReplacementNamed("/authenticationPage"):Navigator.of(context).pushReplacementNamed("/home_page");
+      (user==null)?Navigator.of(context).pushReplacementNamed("/authenticationPage"):Navigator.of(context).pushReplacementNamed("/home_page");
     });
   }
 

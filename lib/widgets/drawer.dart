@@ -66,7 +66,7 @@ class _MyDrawerState extends State<MyDrawer> {
                 padding: EdgeInsets.zero,
                 child: UserAccountsDrawerHeader(
                   margin: EdgeInsets.zero,
-                  accountName: Text(user
+                  accountName: Text(user??""
 
                       //   {
                       // ref.once().then((data) => () {
@@ -83,7 +83,7 @@ class _MyDrawerState extends State<MyDrawer> {
                       //       })
                       // }.toString(),
                       ),
-                  accountEmail: Text(email),
+                  accountEmail: Text(email??""),
                   currentAccountPicture: CircleAvatar(
                     backgroundImage: NetworkImage(
                       img,

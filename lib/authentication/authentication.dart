@@ -88,9 +88,9 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
           backgroundColor: Colors.blue,
         ),
       );
-      await Future.delayed(Duration(seconds: 1));
+      //await Future.delayed(Duration(seconds: 1));
       Navigator.of(context)
-          .pushNamedAndRemoveUntil("/authenticationPage ", (route) => false);
+          .pushNamedAndRemoveUntil("/authenticationPage", (route) => false);
     }
   }
 
@@ -141,7 +141,7 @@ class _AuthenticationPageState extends State<AuthenticationPage> {
                         MobNo.isEmpty ||
                         MobNo.length != 10)
                     ? () {
-                        // setState(() {});
+                         setState(() {});
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(
                             content: Text("Enter Number !"),
